@@ -25,7 +25,7 @@ if(!empty($_GET['location'])){
 </head>
 <body>
 <form action="">
-	<input type="text" name="location" placeholder="Input a domain name. For example: disneyland.ca" />
+	<input type="text" name="location" placeholder="Input a domain name. For example: disneyland.ca" style="width:350px" />
 	<button type="submit">submit</button>
 	<br />
 	<?php
